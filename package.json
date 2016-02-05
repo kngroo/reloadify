@@ -1,0 +1,16 @@
+{
+  "name": "reloadify",
+  "version": "1.0.0",
+  "description": "Automatically reloads browser upon page refresh",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Josh Kang <joshkang@gmail.com> (http://joshkang.com)",
+  "license": "ISC",
+  "dependencies": {
+    "sendevent": "^1.0.4",
+    "uglify-js": "^2.6.1",
+    "watch": "^0.17.1"
+  }
+}
