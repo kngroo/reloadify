@@ -4,7 +4,11 @@
   "description": "Automatically reloads browser upon page refresh",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jasmine spec/appSpec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kngroo/reloadify.git"
   },
   "author": "Josh Kang <joshkang@gmail.com> (http://joshkang.com)",
   "license": "ISC",
@@ -12,5 +16,8 @@
     "sendevent": "^1.0.4",
     "uglify-js": "^2.6.1",
     "watch": "^0.17.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
   }
 }
