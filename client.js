@@ -11,7 +11,6 @@ function subscribe(url, callback) {
 }
 
 subscribe('/eventstream', function(data) {
-  console.log('data: ' + data);
   if(data && /reload/.test(data)) {
     window.location.reload();
   }
